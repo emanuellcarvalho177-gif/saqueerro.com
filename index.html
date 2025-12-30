@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro de Saques</title>
+
+<style>
+body {
+  margin: 0;
+  background: #f6c84c;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  background: #f2b705;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.filter {
+  background: #ffd970;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.total {
+  padding: 0 15px 10px;
+}
+
+.card {
+  background: #f2b705;
+  margin: 10px 15px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.value {
+  color: #b00000;
+  font-weight: bold;
+}
+
+.cancelado {
+  color: #b00000;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <span>Conta para recebimento</span>
+  <span>Registro de Saques</span>
+</div>
+
+<div class="filters">
+  <div class="filter">Hoje</div>
+  <div class="filter">Todos os Status</div>
+</div>
+
+<div class="total">
+  Total de Saques <strong>R$5.000,00</strong>
+</div>
+
+<div class="card">
+  <div>
+    <strong>PIX (****0355)</strong><br>
+    30/12/2025 01:21:14<br>
+    311006921900008511361
+  </div>
+
+  <div style="text-align:right">
+    <div class="value">-5.000,00</div>
+    <div class="cancelado">Saque Cancelado</div>
+  </div>
+</div>
+
+</body>
+</html>
